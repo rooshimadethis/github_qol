@@ -1,0 +1,25 @@
+.gh-qol-branch-info {
+    font-size: 12px;
+    color: #656d76;
+    margin-top: 4px;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+}
+
+.gh-qol-branch-base {
+    background-color: #ddf4ff;
+    color: #0969da;
+    padding: 2px 5px;
+    border-radius: 6px;
+}
+
+.gh-qol-branch-head {
+    background-color: #ddf4ff;
+    color: #0969da;
+    padding: 2px 5px;
+    border-radius: 6px;
+}
+
+.gh-qol-arrow {
+    color: #656d76;
+    font-weight: bold;
+}

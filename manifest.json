@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub PR Branch Info",
+  "version": "1.0",
+  "description": "Displays base <- compare branch info in GitHub PR lists.",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/pulls*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
